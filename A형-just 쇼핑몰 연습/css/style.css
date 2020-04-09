@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    color: #222328;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body, html {
+    min-width: 1200px;
+    background-color: white;
+}
+#header{
+    width: 1200px;
+    height: 100px;
+}
+.logo {
+    width: 250px;
+    height: 100%;
+    float: left;
+}
+.logo > a {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+}
+.nav {
+    width: 600px;
+    height: 100%;
+    float: right;
+}
+.nav > ul {
+    width: 100%;
+    height: 50px;
+    margin-top: 25px;
+    background-color: white;
+}
+.nav > ul > li {
+    width: 150px;
+    height: 100%;
+    float: left;
+
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+}
+.nav > ul > li:hover {
+    background-color: rgb(231, 206, 167);
+}
+.sub {
+    width: 150px;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    display: none;
+    z-index: 99;
+}
+.sub > li {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+.sub > li:hover {
+    background-color: rgb(76, 85, 76);
+    color: white;
+}
+
+#slide {
+    width: 1200px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.wrap {
+    width: 300%;
+    height: 100%;
+    position: absolute;
+    top:0; left:0;
+}
+.wrap > li {
+    float: left;
+}
+#contents {
+    width: 1200px;
+    height: 200px;
+}
+.con {
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+.tab_btn {
+    width: 160px;
+    height: 40px;
+    margin: 10px 0 0;
+}
+.tab_btn > li {
+    width: 50%;
+    height: 100%;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+
+    /* 비활성화된 상태 -------------- */
+    color: #555;
+    cursor: pointer;
+}
+/* 활성화된 상태 ----------------- */
+.tab_btn > li.active {
+    background-color: rgb(76, 85, 76);
+    color: white;
+    cursor: default;
+}
+.tab_contents {
+    width: 100%;
+    height: 150px;
+    border: 1px solid rgb(76, 85, 76);
+    /* 비활성화된 상태------------ */
+    display: none;
+}
+/* 활성화된 상태 --------------*/
+.tab_contents.active {
+    display: block;
+}
+
+.tab_notice > table {
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+.tab_notice td {
+    padding: 3px 7px;
+}
+.tab_gallery {
+    margin: 0;
+    padding: 4px;
+}
+.tab_gallery > li {
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 10px 5px;
+}
+.con > h3 {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    padding-left: 1em;
+}
+.banner > a {
+    display: block;
+    width: 380px;
+    height: 150px;
+}
+.shortcut > li {
+    float: left;
+    width: 120px;
+    height: 120px;
+    padding-top: 15px;
+}
+.shortcut > li > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+#footer {
+    width: 1200px;
+    height: 100px;
+}
+#footer > div {
+    float: left;
+}
+.copyright {
+    padding-top: 25px;
+}
+.copyright > p {
+    font-size: 12px;
+    line-height: 1.4;
+}
+.family {
+    width: 250px;
+    height: 100%;
+    padding: 35px 0;
+    padding-left: 110px;
+}
+.family > a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+}
+.family  img{
+    width: 30px;
+}
