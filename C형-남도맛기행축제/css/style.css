@@ -1,0 +1,241 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    color: #222328;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+body,
+html {
+    min-width: 1000px;
+}
+#header {
+    width: 200px;
+    height: 650px;
+    float: left;
+}
+.logo {
+    width: 100%;
+    height: 100px;
+}
+.logo > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.nav {
+    width: 100%;
+    height: 200px;
+}
+.nav > ul {
+    width: 100%;
+    height: 100%;
+}
+.nav > ul > li {
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    z-index: 99;
+    position: relative;
+    background-color: white;
+}
+.nav > ul > li > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.nav > ul > li > a:hover {
+    background-color: #f6aa37;
+    color: white;
+}
+.sub {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    background-color: white;
+    width: 170px;
+    display: none;
+}
+.sub > li {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.sub > li > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.sub > li > a:hover {
+    background-color: #c4872c;
+    color: white;
+}
+#float {
+    width: 800px;
+    height: 650px;
+    float: left;
+}
+#slide {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+}
+.wrap {
+    width: 300%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.wrap > div {
+    float: left;
+}
+.wrap > div > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#contents {
+    width: 100%;
+    height: 200px;
+}
+.con {
+    float: left;
+}
+.con > h3 {
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+.notice {
+    width: 300px;
+    height: 200px;
+}
+.notice > table {
+    border-collapse: collapse;
+    font-size: 14px;
+}
+.notice td {
+    padding: 3px 2px;
+}
+.gallery {
+    width: 250px;
+    height: 200px;
+}
+.gallery_list {
+    width: 250px;
+    height: 150px;
+    padding: 5px;
+    padding-top: 15px;
+}
+.gallery_list > li {
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin: 5px;
+}
+.gallery_list > li > a,
+.gallery_list > li > a > img {
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+.banner {
+    width: 250px;
+    height: 200px;
+}
+.banner > div > a {
+    display: block;
+    width: 188px;
+    height: 120px;
+}
+.banner > div > a > img {
+    display: block;
+    height: 120px;
+}
+#footer {
+    width: 100%;
+    height: 100px;
+}
+.footer_logo {
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+.footer_menu {
+    width: 600px;
+    height: 50px;
+    float: left;
+}
+.footer_menu > ul {
+    width: 100%;
+    height: 100%;
+}
+.footer_menu > ul > li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+}
+.copyright {
+    width: 600px;
+    height: 50px;
+    float: left;
+    padding-top: 7px;
+    padding-left: 100px;
+}
+.copyright > p {
+    font-size: 13px;
+    line-height: 1.4;
+}
+#modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+
+    display: none;
+}
+.popup {
+    position: absolute;
+    width: 450px;
+    height: 370px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+}
+.popup > h3 {
+    font-size: 18px;
+    margin-bottom: 17px;
+}
+.popup > p {
+    line-height: 1.5;
+    margin-bottom: 14px;
+    font-size: 15px;
+}
+.btn {
+    width: 50px;
+    height: 30px;
+    border: none;
+    background-color: #f6aa37;
+    font-size: 15px;
+    float: right;
+    cursor: pointer;
+    outline: none;
+}
+.td_popup {
+    cursor: pointer;
+}
