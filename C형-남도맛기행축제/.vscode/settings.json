@@ -1,3 +1,4 @@
 {
-    "prettier.printWidth": 110
+    "prettier.printWidth": 110,
+    "liveServer.settings.multiRootWorkspaceName": "C형-남도맛기행축제"
 }
